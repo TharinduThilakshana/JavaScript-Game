@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Poppins:wght@100;200;300;400;600;700;800&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400;500;900&display=swap');
+
+body{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.513), rgb(0, 0, 0)),url('https://www.4theplayer.com/wp-content/uploads/2021/01/Lead-JavaScript-Developer.jpg');
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+#guessCheck{
+    background-color: rgb(141, 141, 141);
+    color: #fff;
+    padding: 13px 15px;
+    font-size: 23px;
+    border: 3px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.p1{
+    color: #fff;
+    font-size: 45px;
+    margin: 350px 150px 0px 125px;
+}
+
+.p2{
+    color: #fff;
+    font-size: 45px;
+    margin: 0px 150px 0px 125px;
+}
+
+#guess{
+    width: 500px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
